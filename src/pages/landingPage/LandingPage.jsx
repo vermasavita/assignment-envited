@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (
     <main className="w-screen h-screen landingpage flex justify-around items-center  md:flex-col-reverse md:pt-6">
@@ -29,12 +30,12 @@ const LandingPage = () => {
           <p> across any social media.</p>
         </div>
         <div className="mt-12 md:mt-10 md:hidden flex items-end justify-end md:items-center md:justify-center">
-          <a
-            href=""
+          <Link
+            to="/create"
             className="btn text-xl lg:text-lg md:text-xl rounded-lg p-4 px-16 md:px-8 text-white font-bold"
           >
             🎉 Create my event
-          </a>
+          </Link>
         </div>
       </section>
     </main>
