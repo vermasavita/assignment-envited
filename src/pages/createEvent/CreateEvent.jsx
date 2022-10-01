@@ -45,7 +45,9 @@ const CreateEventForm = () => {
               />
             </div>
           </div>
-          <button className="btn md:w-2/3 md:m-auto md:py-2 mt-4 mb-4 text-xl lg:text-lg md:text-base rounded-lg p-2 px-12 md:px-2 text-white font-bold">Add Your Event</button>
+          <button className="btn md:w-2/3 md:m-auto md:py-2 mt-4 mb-4 text-xl lg:text-lg md:text-base rounded-lg p-2 px-12 md:px-2 text-white font-bold">
+            Add Your Event
+          </button>
         </form>
       </section>
     </div>
