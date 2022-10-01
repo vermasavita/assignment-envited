@@ -1,3 +1,3 @@
 export { LandingPage } from "./landingPage/LandingPage";
-export { CreateEvent } from "./createEvent/CreateEvent";
+export { CreateEvent } from "./createEvent/Event";
 
