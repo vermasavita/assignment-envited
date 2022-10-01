@@ -46,7 +46,7 @@ const CreateEventForm = () => {
               />
             </div>
           </div>
-          <Link to="/event" className="btn md:w-2/3 md:m-auto md:py-2 mt-4 mb-4 text-xl lg:text-lg md:text-base rounded-lg p-2 px-12 md:px-2 text-white font-bold">
+          <Link to="/event" className="btn m-auto md:w-2/3 md:m-auto md:py-2 mt-4 mb-4 text-xl lg:text-lg md:text-base rounded-lg p-2 px-12 md:px-2 text-white font-bold">
             Add Your Event
           </Link>
         </form>
